@@ -600,7 +600,16 @@ body > footer {
 
   .testimonial {
     flex: 1;
+    justify-content: space-between;
     gap: 4rem;
+  }
+
+  .testimonial > p {
+    height: 100%;
+  }
+
+  .testimonial > footer {
+    justify-self: flex-end;
   }
 
   /* Photo Collage */
