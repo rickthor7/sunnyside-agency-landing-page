@@ -151,7 +151,6 @@ body > header {
 
 .intro {
   background: url(../images/mobile/image-header.jpg) center bottom / cover no-repeat;
-  /*background-color: var(--color-primary-soft-blue);*/
   color: var(--color-neutral-white);
   height: 28rem;
   display: flex;
@@ -167,7 +166,7 @@ h1 {
   font-weight: 900;
   text-transform: uppercase;
   margin: 0;
-  padding: 0 2em;
+  width: 100%;
 }
 
 .intro h1 {
