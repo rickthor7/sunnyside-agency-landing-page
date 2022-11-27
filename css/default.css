@@ -135,6 +135,10 @@ body > header {
   font-size: 0.9em;
 }
 
+.link-button:hover {
+  filter: brightness(110%);
+}
+
 /* Sections */
 
 .intro,
