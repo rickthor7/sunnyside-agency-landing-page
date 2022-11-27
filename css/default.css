@@ -33,8 +33,13 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--font-family-heading);
+}
+
+h2 {
+  color: var(--color-neutral-extra-dark-mute-blue);
 }
 
 img {
@@ -167,8 +172,8 @@ h1 {
 
 /* Sections */
 
-h2 {
-  font-size: 2.3em;
+h3 {
+  font-size: 2.3rem;
   font-weight: 900;
   margin-top: 0;
 }
@@ -184,13 +189,13 @@ p {
   flex-direction: column;
 }
 
-.solutions h2 {
-  color: var(--color-neutral-extra-dark-mute-blue);
-}
-
 .solution {
   align-self: center;
   padding: 3.6rem 1.4rem;
+}
+
+.solution h3 {
+  color: var(--color-neutral-extra-dark-mute-blue);
 }
 
 .solution p {
@@ -244,7 +249,7 @@ p {
   padding: 95% 1rem 2.5rem 1rem;
 }
 
-.service h2 {
+.service h3 {
   font-size: 1.6em;
 }
 
@@ -278,7 +283,7 @@ p {
 
 .testimonials > h2 {
   text-transform: uppercase;
-  font-size: 1em;
+  font-size: 1rem;
   letter-spacing: 0.15em;
   color: var(--color-neutral-extra-dark-gray-blue);
   text-align: center;
@@ -563,7 +568,7 @@ body > footer {
     padding: clamp(28rem, 40%, 32rem) clamp(0.2rem, 7vw, 6rem) 3.5rem clamp(0.2rem, 7vw, 6rem);
   }
 
-  .service h2 {
+  .service h3 {
     font-size: clamp(0.8em, 5vw, 2em);
   }
 
