@@ -403,6 +403,7 @@ body > footer {
 .nav-footer-list > li > a:hover {
   text-decoration: none;
   color: var(--color-neutral-white);
+  border-bottom: 3px solid var(--color-neutral-white);
 }
 
 /* Social */
